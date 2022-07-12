@@ -61,18 +61,7 @@ nav.nabar-transparente {
 	border-color: white;
 }
 
-@media (max-width: 720px) {
-    body {
-    background-image: url(../imagens/banner720.png);
-	position: absolute;
-    bottom: 0;
-    left: 0;
-	top: 0;
-	right: 0;
-	background-size: cover;
-	background-position: center;
-}
-}
+
 html, body, #home{
 	height: 100%;
 	width: 100%;
@@ -81,9 +70,9 @@ html, body, #home{
 
 /*-----------Fim Layout--------------*/
 
-@media (min-width: 800px) {
+@media (max-width: 800px) {
     body {
-    background-image: url(../imagens/banner768.png);
+    background-image: url(../imagens/b-768.png);
 	position: absolute;
    	bottom: 0;
 	top: 0;
@@ -92,7 +81,9 @@ html, body, #home{
 	background-size: cover;
 	background-position: center;
 }
-}
+	.telap{
+	background: rgba(255,255,255,0.9);
+}}
 
 @media (min-width: 992px) {
   	body {
